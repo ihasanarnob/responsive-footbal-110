@@ -1,0 +1,136 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* main.  */
+main{
+    font-family: 'Poppins', sans-serif;
+}
+.banner-info{
+
+    background-color: #2D25A0;
+    width: 1440;
+    height: 677px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-info:hover .banner-image{
+    transform: scale(1.2) rotate(30deg);
+    transition: transform 2s ease-in;
+}
+.headline{
+    height: 207px;
+    width: 485px;
+    left: 156px;
+    top: 207px;
+    bottom: 240px;
+    padding-bottom: 30px;
+    right: 800px;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.link-button{
+    border: 27px;
+     height: 44px;
+    width: 168px;
+    padding: 10px, 24px, 10px, 24px;
+    background: #E02C6D;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-arrow-right{
+    padding-left: 5px;
+}
+.banner-image img{
+height: 438px;
+width: 556px;
+left: 1299px;
+top: 153px;
+}
+
+/* player */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 70px;
+    padding: 27px;
+}
+.player-info{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    margin-right: 30px;
+    margin-bottom: 27px;
+    box-shadow: -2px -2px 3px grey;
+
+}
+.player-photo img{
+    width: 300px;
+    height: 256px;
+
+}
+.about{
+    width: 300px;
+    height: 154px;
+
+}
+
+
+
+/* highlight portion */
+.highlight-container{
+    display: flex ;
+    justify-content: space-between;
+    margin-left: 100px ;
+    margin-right: 110px;
+}
+
+.all-highlight{
+    width: 466px;
+    height: 241px;
+
+}
+
+.match-photo img{
+    width: 567px;
+    height: 427px;
+}
+/* share portion */
+.extra{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/* logo section */
+.footwork{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 480px;
+    height: 110px;
+    padding-top: 25px;
+
+}
+.icons{
+    width: 170px;
+    height: 32px;
+    margin-left: 180px;
+
+}
+.fab{
+    padding-left: 15px;
+}
+.copyright{
+    width: 236px;
+    height: 31px;
+    margin-left: 180px;
+
+}
